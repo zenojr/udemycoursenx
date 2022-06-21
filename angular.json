@@ -4,6 +4,7 @@
   "projects": {
     "frontend": "apps/frontend",
     "frontend-e2e": "apps/frontend-e2e",
-    "home-feature": "libs/home/feature"
+    "home-feature": "libs/home/feature",
+    "storybook": "libs/storybook"
   }
 }

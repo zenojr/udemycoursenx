@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@udemycoursenx/home/feature": ["libs/home/feature/src/index.ts"]
+      "@udemycoursenx/home/feature": ["libs/home/feature/src/index.ts"],
+      "@udemycoursenx/storybook": ["libs/storybook/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
