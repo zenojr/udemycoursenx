@@ -17,6 +17,11 @@
                    "apps/frontend/src/assets", 
                    "apps/frontend/src/assets/images"],
         "styles": ["apps/frontend/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": [
+            "libs/shared/styles"
+          ]
+        },
         "scripts": []
       },
       "configurations": {
