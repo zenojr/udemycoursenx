@@ -5,7 +5,8 @@
         url(../../../../../../../apps/frontend/src/assets/images/travel_bg.jpeg);
     height: 100vh;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    align-items: flex-end; 
 }
 
 .landing-header {
@@ -14,4 +15,31 @@
 
 .landing-body {
     flex: 1 0  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.signup {
+    flex: 0 0 auto;
+    width: 288px;
+    margin-right: 80px;
+}
+
+.email-control {
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
+    &__icon {
+        flex: 0 0 auto
+    }
+    &__input {
+        flex: 1 0 auto;
+    }
+    &__btn {
+        flex: 1 0 auto;
+    }
 }
